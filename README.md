@@ -1,9 +1,21 @@
-# Image_Colorization
-Using autoencoder architecture of neural networks, converting given grayscale image to RGB image.\
-I worked as a summer intern at IVlabs, Nagpur from May, 2022 to October, 2022.\ 
-During this phase, I explored about the deep learning. The workflow was:\
-a) MNIST digit classifier using fully connected neural networks\
-b) Improving deep neural networks via batch normalization, regularizations which include L1, L2, dropout, hyperparameter tuning\
-c) MNIST digit classifier by incorporating convolution neural networks\
-d) Use of autoencoders in reproducing the same images given as input( we used MNIST images )\
-e) Using Resnet-18-Gray and autoencoder architecture, we succesfully build model to colorize given grayscale images\
+ # Image_Colorization_Project
+ ## Table of Contents
+* [Description](#Description "Goto Description")
+* [Dataset](#Autoencoder "Goto Autoencoder ")
+* [Model Architecture](#Model Archtecture "Goto Model Architecture")
+* [Hyperparameters](#Hyperparameters "Goto Hyperparameters")
+* [Results](#Results "Goto Results")
+## Description
+ The aim of this project is to colorize the given grayscale images .
+## Dataset
+ torch.torchvision.datasets.Flowers102 which consists of RGB images of various types of flowers.
+## Model Architecture
+* First six layers of Resnet pretrained network model as encoder
+* Decoder of six layers to extract the information
+## Hyperparameters
+* Adam optimiser
+* Learning rate 0.001
+* Loss function MSE loss
+* Batch size 256
+# Results
+
