@@ -3,6 +3,7 @@
 * [Description](#Description "Goto Description")
 * [Dataset](#Autoencoder "Goto Autoencoder ")
 * [Model_Architecture](#Model_Archtecture "Goto Model Architecture")
+* [Methods](#Methods "Goto Methods)
 * [Hyperparameters](#Hyperparameters "Goto Hyperparameters")
 * [Results](#Results "Goto Results")
 ## Description
@@ -12,6 +13,9 @@
 ## Model_Architecture
 * First six layers of Resnet pretrained network model as encoder
 * Decoder of six layers to extract the information
+## Methods
+![image](https://user-images.githubusercontent.com/105559761/201325391-d58ccc20-b279-49bd-be5f-5d0b11f94646.png)
+
 ## Hyperparameters
 * Adam optimiser
 * Learning rate 0.001
