@@ -3,7 +3,7 @@
 * [Description](#Description "Goto Description")
 * [Dataset](#Autoencoder "Goto Autoencoder ")
 * [Model_Architecture](#Model_Archtecture "Goto Model Architecture")
-* [Methods](#Methods "Goto Methods)
+* [Methods](#Methods "Goto Methods")
 * [Hyperparameters](#Hyperparameters "Goto Hyperparameters")
 * [Results](#Results "Goto Results")
 ## Description
@@ -14,14 +14,19 @@
 * First six layers of Resnet pretrained network model as encoder
 * Decoder of six layers to extract the information
 ## Methods
-![image](https://user-images.githubusercontent.com/105559761/201325391-d58ccc20-b279-49bd-be5f-5d0b11f94646.png)
+<img src="https://user-images.githubusercontent.com/105559761/201329358-8c388c61-ca1c-4d66-8c44-4d04f07723e1.png"  width="600" height="300">
 
 ## Hyperparameters
-* Adam optimiser
-* Learning rate 0.001
-* Loss function MSE loss
-* Batch size 256
+|Hyperparameter |Description|
+|-----|--------|
+| Optimiser|Adam Optimiser      |
+|Learning rate  | 0.001      |
+| Loss Function | MSE loss |
+| Batch size | 256 |
+
 # Results
-![Screenshot (114)](https://user-images.githubusercontent.com/105559761/198292858-428aa7a1-2e3d-4bee-befa-3bc28709eb56.png )
-![image](https://user-images.githubusercontent.com/107758088/198271333-aa99bc7c-37df-40f4-ada5-3b4156cd4e4d.png)
-![image2](https://user-images.githubusercontent.com/107758088/198271032-39c9253f-9b55-42b0-aa94-904b19c4e622.png)
+<img src="https://user-images.githubusercontent.com/105559761/201330406-2c4b1c5c-d8e8-4fcc-b445-00d5ff3d2e3c.png" width="600" height="300">
+
+<img src="https://user-images.githubusercontent.com/105559761/201337413-15cbb2e1-7d6b-4f63-9292-5e797bb35a9f.png" width="600" height="300" >                                                                                                                                        
+
+                                                                                                                                          
