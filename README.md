@@ -11,10 +11,18 @@
 ## Dataset
  torch.torchvision.datasets.Flowers102 which consists of RGB images of various types of flowers.
 ## Model_Architecture
-* First six layers of Resnet pretrained network model as encoder
+* First six layers of Resnet-18-gray pretrained network model as encoder
 * Decoder of six layers to extract the information
 ## Methods
 <img src="https://user-images.githubusercontent.com/105559761/201329358-8c388c61-ca1c-4d66-8c44-4d04f07723e1.png"  width="600" height="300">
+
+* Autoencoder: Autoencoder are used in this project.Autoencoder is a neural network which is composed of encoder,bottleneck and a decoder.
+
+* Transfer Learning: Transfer learning is the reuse of a pre-trained model on a new problem. In transfer learning, a machine exploits the knowledge gained from a previous task to improve generalization about another.
+
+* ResNet 18 Gray: Deep neural networks are hard to train as their depth increases. This increase in depth comes with many problems such as vanishing and exploding gradient descent . Residual Networks or ResNets are a solution to such problems. Resnet-18-Gray is used in this project which is a pretrained Convolutional neural network that is 18 layers deep,but only first 6 layers of this network are implemented.
+
+* LAB Color Space:  LAB Color Space is used in this project as by separating out the lightness component, the neural network only has to learn the remaining two channels for colorization.
 
 ## Hyperparameters
 |Hyperparameter |Description|
