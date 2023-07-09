@@ -2,7 +2,7 @@
  ## Table of Contents
 * [Description](#Description "Goto Description")
 * [Dataset](#Dataset "Goto Dataset ")
-* [Model_Architecture](#Model_Archtecture "Goto Model_Architecture")
+* [Model_Architecture](#Model_Architecture "Goto Model_Architecture")
 * [Methods](#Methods "Goto Methods")
 * [Hyperparameters](#Hyperparameters "Goto Hyperparameters")
 * [Results](#Results "Goto Results")
