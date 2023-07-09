@@ -1,8 +1,8 @@
  # Image_Colorization_Project
  ## Table of Contents
 * [Description](#Description "Goto Description")
-* [Dataset](#Autoencoder "Goto Autoencoder ")
-* [Model_Architecture](#Model_Archtecture "Goto Model Architecture")
+* [Dataset](#Autoencoder "Goto Dataset ")
+* [Model_Architecture](#Model_Archtecture "Goto Model_Architecture")
 * [Methods](#Methods "Goto Methods")
 * [Hyperparameters](#Hyperparameters "Goto Hyperparameters")
 * [Results](#Results "Goto Results")
