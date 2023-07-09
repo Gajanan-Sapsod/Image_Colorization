@@ -32,7 +32,7 @@
 | Optimiser|Adam Optimiser      |
 |Learning rate  | 0.001      |
 | Loss Function | MSE loss |
-| Batch size | 256 |
+| Batch size | 128 |
 
 # Results
 
